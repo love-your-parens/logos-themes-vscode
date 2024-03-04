@@ -179,6 +179,31 @@ red = {
     'orange_1'  : '#cc6666',
 }
 
+catpuccin_frappe = {
+    **dark,
+    'theme_name': 'Logos Catpuccin Frappe',
+    'bg_main'   : '#292c3c',
+    'bg_subtle' : '#303446',
+    'bg_fade'   : '#303446',
+    'bg_hl'     : '#3c4053',
+    'bg_strong' : '#5c6372',
+    'fg_faint'  : '#505b70',
+    'fg_fade'   : '#707b90',
+    'fg_dim'    : '#8895ae',
+    'fg_subtle' : '#a8b0c8',
+    'fg_main'   : '#d8dee9',
+    'fg_bold'   : '#eceff4',
+    'bg_match'  : '#88c0d0',
+    'link'      : '#88c0d0',
+    'red_1'     : '#bf616a',
+    'orange_1'  : '#d08770',
+    'green_1'   : '#a3be8c',
+    'yellow_1'  : '#ebcb8b',
+    'blue_1'    : '#81a1c1',
+    'magenta_1' : '#b48ead',
+    'cyan_1'    : '#88c0d0',
+}
+
 themes = {
     'light': {
         'white': white,
@@ -191,6 +216,7 @@ themes = {
         'warm': warm,
         'nord': nord,
         'red' : red,
+        'catpuccin_frappe': catpuccin_frappe,
     },
 }
 
